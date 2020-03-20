@@ -1,0 +1,11 @@
+import(vegan)
+import(mvabund)
+import(ape)
+importFrom("car","dataEllipse")
+importFrom("cluster","pam")
+importFrom("randomcoloR","distinctColorPalette")
+importFrom("graphics", "legend", "par", "plot","segments")
+importFrom("stats", "as.dist", "model.frame", "model.matrix", "terms")
+importFrom("stats", "cov", "qf")
+export(aPCoA)  
+
